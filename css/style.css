@@ -7,29 +7,28 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;
-   
 
 }
 
 .logo {
     display: flex;
     justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
     width: 100%;
     color: aliceblue;
     margin-bottom: 50px;
     font-size: 18px;
 }
 
-img {
-    width: auto;
-    height: 220px;
-}
+
 .about {
     max-width: 300px;
-    margin-left: 150px;
-    margin-right: 150px;
+    /*margin-left: 150px;
+    margin-right: 150px;*/
+    gap: 25px;
+    justify-content: center;
     color: aliceblue;
     margin-bottom: 50px;
 
@@ -42,10 +41,13 @@ img {
      gap: 16px;
  }
 
- .img {
-     margin-right: 150px;
-     margin-left: 15px;
-     margin-bottom: 50px;
+ .img1 {
+     width: auto;
+    height: 220px;
+     /*margin-right: 150px;
+     margin-left: 150px;*/
+     justify-content: center;
+     margin-bottom: 25px;
  }
 
  .main {
@@ -54,3 +56,35 @@ img {
     width: 100%;
     justify-content: center;
  }
+
+ .section2, .card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+.img2 {
+    width: auto;
+    max-width: 200px;
+    max-height: 150px;
+    padding: 15px;
+    border-radius: 25px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-sc2 {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.description {
+    color: #1f2937;
+}
+
+.card a:hover {
+    border: 2px solid #3882f6;
+    border-radius: 25px;
+}
