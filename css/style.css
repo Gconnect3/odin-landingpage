@@ -4,11 +4,19 @@ body {
  font-family: sans-serif;
 }
 
+.section0,
 .section1, .footer {
     display: flex;
     flex-wrap: wrap;
     background-color: #1f2937;
  }
+.section0 {
+    justify-content: center;
+}
+ .section1{
+     max-width: 1440px;
+ }
+
  .signup-button {
      display: flex;
      background-color: #3882f6;
@@ -74,7 +82,8 @@ body {
      display: flex;
      flex-wrap: wrap;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 100px;
  }
 .hero-main-text {
     font-size: 48px;
@@ -97,7 +106,7 @@ body {
 .img2 {
     width: auto;
     max-width: 200px;
-    max-height: 150px;
+    max-height: 200px;
     padding: 15px;
     border-radius: 25px;
 }
@@ -105,6 +114,7 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 16px;
 }
 
 .header-sc2 {
@@ -120,18 +130,34 @@ body {
     font-size: 18px;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-wrap: wrap;
+    padding: 5px 0;
+   text-align: center;
+}
 .card a:hover {
     border: 2px solid #3882f6;
     border-radius: 25px;
 }
 
-.section3 {
+.b-section3{
     display: flex;
     background-color: #e5e7eb;
     justify-content: center;
-    flex-direction: column;
-margin-top: 50px;
+    margin: 50px 0;
 }
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    max-width: 1440px;
+}
+
 .quote {
     font-size: 36px;
     font-weight: lighter;
