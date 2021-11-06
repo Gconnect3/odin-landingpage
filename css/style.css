@@ -55,8 +55,6 @@ body {
 }
 .about {
     max-width: 400px;
-    /*margin-left: 150px;
-    margin-right: 150px;*/
     gap: 25px;
     justify-content: center;
     margin-bottom: 25px;
@@ -71,9 +69,7 @@ body {
 
  .img1 {
      width: auto;
-    height: 220px;
-     /*margin-right: 150px;
-     margin-left: 150px;*/
+     height: 220px;
      justify-content: center;
      margin-bottom: 25px;
  }
@@ -101,6 +97,7 @@ body {
  .logo-img {
      width: auto;
      height: 75px;
+     border-radius: 50px;
  }
 
 .img2 {
