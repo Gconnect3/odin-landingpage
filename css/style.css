@@ -191,7 +191,12 @@ body {
 }
 
 .modal .signup-button {
-    border: 2px solid #f9faf8
+    border: 2px solid #f9faf8;
+    max-height: 25px;
+    justify-self: center;
+    align-self: center;
+    max-width: 80px;
+
 }
 
 .modal-hero {
@@ -199,11 +204,15 @@ body {
     font-weight: bold;
 }
 
+.modal-text {
+    max-width: 400px;
+}
+
 .footer {
     justify-content: center;
     font-size: 24px;
     color: #f9faf8;
-    padding: 50px;
+    padding: 25px;
 }
 
 .signup-button a {
